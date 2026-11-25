@@ -14,13 +14,13 @@ Python (pandas + matplotlib) analysis of the public IBM Telco customer churn dat
 2. Push automatic payment at signup.
 3. Review fiber optic service quality and pricing.
 
-![drivers](charts/churn_drivers.png)
+![drivers](churn_drivers.svg)
 
 ## Run it
 ```
 pip install pandas matplotlib
 python analysis.py
 ```
-Outputs `results.txt` and `charts/churn_drivers.png`. 11 rows with blank TotalCharges (brand-new customers) are dropped.
+The script downloads the data directly from the public source. Outputs `results.txt` and `churn_drivers.svg`. 11 rows with blank TotalCharges (brand-new customers) are dropped.
 
 Data: https://github.com/IBM/telco-customer-churn-on-icp4d (public sample data).
