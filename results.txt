@@ -1,0 +1,39 @@
+Customers: 7032
+Overall churn rate: 26.6%
+Monthly revenue lost to churners: $139,131 of $455,661
+
+Churn % by Contract
+                customers  churn_pct
+Contract                            
+Month-to-month       3875       42.7
+One year             1472       11.3
+Two year             1685        2.8
+
+Churn % by InternetService
+                 customers  churn_pct
+InternetService                      
+DSL                   2416       19.0
+Fiber optic           3096       41.9
+No                    1520        7.4
+
+Churn % by PaymentMethod
+                           customers  churn_pct
+PaymentMethod                                  
+Bank transfer (automatic)       1542       16.7
+Credit card (automatic)         1521       15.3
+Electronic check                2365       45.3
+Mailed check                    1604       19.2
+
+Churn % by tenure_band
+             customers  churn_pct
+tenure_band                      
+0-12m             2175       47.7
+13-24m            1024       28.7
+25-48m            1594       20.4
+49-72m            2239        9.5
+
+Churn % by SeniorCitizen
+               customers  churn_pct
+SeniorCitizen                      
+0                   5890       23.7
+1                   1142       41.7
